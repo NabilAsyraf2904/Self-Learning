@@ -9,7 +9,6 @@ public class IndeedQuestion {
 		public static void main(String[] args) {
 			
 			Q1();
-			System.out.println();
 			Q2();
 	
 		}
