@@ -8,8 +8,9 @@ public class IndeedQuestion {
 	
 		public static void main(String[] args) {
 			
-			Q1();
-			Q2();
+			//Q1();
+			//Q2();
+			Q3();
 	
 		}
 	
@@ -25,21 +26,21 @@ public class IndeedQuestion {
 	{
 		// write a Java program to swap two numbers using the third variable.
 		
-			System.out.println("Enter value of a and b");
-			int a = sc.nextInt();
-			int b = sc.nextInt();
-			//Original order
-			System.out.println("Original order");
-			System.out.println("a :" + a);
-			System.out.println("b :" + b);
-			
-			int c = a;
-			 a = b;
-			 b = c;
-			 //After swap
-			 System.out.println("After swap");
-			System.out.println("a :" + a);
-			System.out.println("b :" + b);
+		System.out.println("Enter value of a and b");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		//Original order
+		System.out.println("Original order");
+		System.out.println("a :" + a);
+		System.out.println("b :" + b);
+		
+		int c = a;
+		 a = b;
+		 b = c;
+		 //After swap
+		System.out.println("After swap");
+		System.out.println("a :" + a);
+		System.out.println("b :" + b);
 			
 			partition();
 	}
@@ -65,6 +66,36 @@ public class IndeedQuestion {
 		System.out.println("e :" + e);
 		
 		partition();
+	}
+	
+	public static void Q3()
+	{
+		//write me a Java program to find whether a number is prime.
+		
+		int number = sc.nextInt();
+		
+		if (number <= 3 ) {
+			
+			if (number == 1) {
+				System.out.println(number + " is not prime number");
+			} else {
+				System.out.println(number + " is prime number");
+			}
+			
+			
+		} else if (number % 2 == 0 || number % 3 == 0) {
+			
+			System.out.println(number + " is not prime number");
+			
+		} else {
+			
+			System.out.println(number + " is prime number");
+			
+		}
+		
+		partition();
+		
+		
 	}
 
 }
