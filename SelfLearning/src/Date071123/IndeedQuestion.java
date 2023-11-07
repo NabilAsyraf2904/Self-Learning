@@ -8,8 +8,8 @@ public class IndeedQuestion {
 	
 		public static void main(String[] args) {
 			
-			//Q1();
-			//Q2();
+			Q1();
+			Q2();
 			Q3();
 	
 		}
